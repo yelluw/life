@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'meds',
     'todos',
     'notes',
+    'links',
 ]
 
 MIDDLEWARE = [

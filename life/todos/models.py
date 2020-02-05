@@ -5,7 +5,7 @@ from django.utils.timezone import localtime
 
 class Todo(models.Model):
     task = models.CharField(max_length=255)
-    notes = models.TextField(default='')
+    notes = models.TextField(default='', blank=True)
     date_created = models.DateTimeField(auto_now_add=True)
     date_due = models.DateTimeField()
     done = models.BooleanField(default=False)

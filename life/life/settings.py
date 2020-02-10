@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'notes',
     'links',
     'exercise',
+    'diet',
 ]
 
 MIDDLEWARE = [
